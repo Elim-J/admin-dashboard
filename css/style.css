@@ -1,8 +1,13 @@
+body {
+    font-family: 'Karla', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
 .container {
     display: grid;
     gap: 10px;
 
-    grid-template: .4fr .2fr 3fr/ 1fr 1fr 1fr 1fr;
+    grid-template: 1fr .5fr 6fr/ 1fr 1fr 1fr 1fr;
 }
 
 .dashboard {
@@ -13,7 +18,7 @@
     border-radius: 6px;
 
     justify-content: center;
-    align-items: start;  
+    align-items: start;
     position: fixed;
 }
 
@@ -114,7 +119,7 @@ button {
     grid-row: 3 / -1;
 
     display: grid;
-    grid-template: 1fr 1fr 1fr / 1fr 1fr;
+    grid-template: .3fr .3fr .3fr / 1fr 1fr;
     gap: 10px;
 }
 
@@ -126,13 +131,16 @@ button {
     display: flex;
     justify-content: end;
     gap: 10px;
+    position: relative;
+    top: 20px;
+    right: 20px;
 }
 
 .announce-trend {
     background-color: lightgreen;
     padding: 10px;
     grid-column: 4 / -1;
-    grid-row: 3 / -1;
+    grid-row: 2 / -1;  
 }
 
 .announcements {
@@ -164,6 +172,12 @@ button {
     grid-template: 1fr 1fr 1fr 1fr / 1fr 1fr;
     justify-items: center;
     align-items: center;
+}
+
+.profile-pic {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 6px;;
 }
 
 hr {
