@@ -48,11 +48,57 @@
     gap: 10px;
 }
 
+.nav-icons {
+    height: 30px;
+    width: 30px;
+}
+
+input[type=text]{
+    border-radius: 10px;
+    border: none;
+    height: 25px;
+    width: 35rem;
+    text-indent: 10px;
+    margin-right: auto;   
+}
+
+input:focus {
+    outline-color: red;    
+}
+
 .top-nav,
 .bottom-nav {
     background-color: coral;
     display: flex;
     gap: 20px;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.mochi-png {
+    height: 30px;
+    width: 30px;
+}
+
+.bottom-nav img {
+    height: 70px;
+    width: 70px;
+}
+
+.greet-msg {
+    margin-right: auto;
+}
+
+.greet-msg h2, .greet-msg p{
+    margin: 0;
+}
+
+button {
+    height: 2rem;
+    width: 5rem;
+    border-radius: 10px;
+    border: none;
 }
 
 .heading {
