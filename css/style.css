@@ -1,6 +1,7 @@
 body {
     font-family: 'Karla', sans-serif;
     font-family: 'Roboto Condensed', sans-serif;
+    min-width: 70%;
 }
 
 .container {
@@ -19,12 +20,18 @@ body {
 
     justify-content: center;
     align-items: start;
-    position: fixed;
+    
+}
+
+.all-dash-el {
+    position: sticky;
+    top: 10px;
 }
 
 #dash-first {
     position: relative;
     right: 20px;
+    
 }
 
 .dash-one, .dash-two, .dash-three{
