@@ -18,15 +18,12 @@ body {
 }
 
 .dashboard {
-   
     padding: 40px;
     display: grid;
     grid-row: 1 / -1;
     border-radius: 6px;
-
     justify-content: center;
-    align-items: start;
-    
+    align-items: start;  
 }
 
 .all-dash-el {
@@ -50,7 +47,6 @@ body {
     height: 30px;
     width: 30px;
     gap: 10px;
-    
     position: relative;
     top: 15px;
 }
@@ -59,7 +55,6 @@ body {
     background-color: #6495ec;
     padding: 10px;
     border-radius: 10px;
-
     grid-column: 2 / -1;
     grid-row: 1 / 2;
     display: flex;
@@ -107,11 +102,14 @@ input:focus {
     margin-right: auto;
 }
 
-.greet-msg h2, .greet-msg p{
+.greet-msg h1, .greet-msg p{
     margin: 0;
 }
 
 button {
+    background-color: rgb(154, 154, 212);
+    color: white;
+    font-weight: bold;
     height: 2rem;
     width: 5rem;
     border-radius: 10px;
@@ -131,7 +129,6 @@ button {
     padding: 10px;
     grid-column: 2 / 4;
     grid-row: 3 / -1;
-
     display: grid;
     grid-template: repeat(auto-fit, minmax(200px, 1fr)) / repeat(auto-fit, minmax(250px, 1fr));
     gap: 10px;
@@ -156,7 +153,8 @@ button {
     border-radius: 10px;
     padding: 10px;
     grid-column: 4 / -1;
-    grid-row: 2 / -1;  
+    grid-row: 2 / -1;
+    z-index: 1;
 }
 
 .announce-content {
@@ -164,6 +162,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .trending {
